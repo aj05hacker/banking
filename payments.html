@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payments</title>
+    <style>
+        /* Resetting default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic styles for header and footer */
+        header, footer {
+            background-color: #4CAF50; /* Green color */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Content section styles */
+        .content {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* Payment card styles */
+        .payment-card {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .payment-card h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .payment-card p {
+            margin-bottom: 20px;
+        }
+
+        .payment-card button {
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Green color */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .payment-card button:hover {
+            background-color: #45a049; /* Darker green color */
+        }
+
+        /* Footer links */
+        footer ul {
+            list-style-type: none;
+        }
+
+        footer ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        footer ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            footer ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            .payment-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Payments</h1>
+    </header>
+    
+    <section class="content">
+        <div class="payment-card">
+            <h2>Electricity Bill</h2>
+            <p>Pay your electricity bill conveniently.</p>
+            <button>Pay Now</button>
+        </div>
+
+        <div class="payment-card">
+            <h2>Internet Bill</h2>
+            <p>Pay your internet bill with ease.</p>
+            <button>Pay Now</button>
+        </div>
+
+        <div class="payment-card">
+            <h2>Mobile Recharge</h2>
+            <p>Recharge your mobile in seconds.</p>
+            <button>Recharge Now</button>
+        </div>
+
+        <div class="payment-card">
+            <h2>Water Bill</h2>
+            <p>Pay your water bill hassle-free.</p>
+            <button>Pay Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li>Social Media:
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loans</title>
+    <style>
+        /* Resetting default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic styles for header and footer */
+        header, footer {
+            background-color: #4CAF50; /* Green color */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Content section styles */
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Loan cards container */
+        .loan-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        /* Loan card styles */
+        .loan-card {
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 20px;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .loan-card h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .loan-card p {
+            margin-bottom: 20px;
+            color: #555;
+        }
+
+        .loan-card a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Green color */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .loan-card a:hover {
+            background-color: #45a049; /* Darker green color */
+        }
+
+        /* Footer links */
+        footer ul {
+            list-style-type: none;
+        }
+
+        footer ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        footer ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            .loan-card {
+                width: calc(50% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Loans</h1>
+    </header>
+    
+    <section class="content">
+        <div class="loan-cards">
+            <div class="loan-card">
+                <h3>Personal Loan</h3>
+                <p>Flexible personal loans to suit your needs.</p>
+                <a href="#">Apply Now</a>
+            </div>
+            <div class="loan-card">
+                <h3>Home Loan</h3>
+                <p>Turn your dream home into reality with our home loan options.</p>
+                <a href="#">Apply Now</a>
+            </div>
+            <div class="loan-card">
+                <h3>Car Loan</h3>
+                <p>Get behind the wheel faster with our hassle-free car loans.</p>
+                <a href="#">Apply Now</a>
+            </div>
+            <div class="loan-card">
+                <h3>Business Loan</h3>
+                <p>Grow your business with our flexible business financing solutions.</p>
+                <a href="#">Apply Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li>Social Media:
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

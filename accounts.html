@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Details</title>
+    <style>
+        /* Resetting default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Basic styles for header and footer */
+        header, footer {
+            background-color: #2ecc71; /* Green color */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Content section styles */
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Account details styles */
+        .account-details {
+            margin-bottom: 20px;
+        }
+
+        .account-details h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .account-details table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .account-details th,
+        .account-details td {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .account-details th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        /* Footer links */
+        footer ul {
+            list-style-type: none;
+        }
+
+        footer ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        footer ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* Responsive styles */
+        @media screen and (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            footer ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Account</h1>
+    </header>
+    
+    <section class="content">
+        <div class="account-details">
+            <h2>Account Summary</h2>
+            <table>
+                <tr>
+                    <th>Account Number</th>
+                    <td>123456789</td>
+                </tr>
+                <tr>
+                    <th>Balance</th>
+                    <td>$5,000.00</td>
+                </tr>
+                <tr>
+                    <th>Last Transaction</th>
+                    <td>Deposit - $500.00 on 2024-03-15</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Disclaimer</a></li>
+            <li>Social Media:
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
